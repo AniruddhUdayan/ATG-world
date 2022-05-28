@@ -1,0 +1,317 @@
+.container {
+    position: absolute;
+width: 736px;
+height: 513px;
+left: 352px;
+top: 100px;
+position: fixed;
+background: #FFFFFF;
+box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.25);
+border-radius: 8px;
+z-index: 4;
+}
+.backdrop {
+    position: absolute;
+width: 1440px;
+height: 1024px;
+left: 0px;
+top: 0px;
+
+background: #000000;
+opacity: 0.6;
+z-index: 3;
+position: fixed;
+}
+.navbar {
+    position: absolute;
+width: 736px;
+height: 50px;
+
+
+background: #EFFFF4;
+border-radius: 8px 8px 0px 0px;
+}
+.navhead {
+padding-top: 17px;
+/* font-family: 'IBM Plex Sans'; */
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height, or 114% */
+
+text-align: center;
+
+color: #008A45;
+}
+.head {
+    position: absolute;
+width: 173px;
+height: 31px;
+left: 36px;
+top: 74px;
+
+/* font-family: 'IBM Plex Sans'; */
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 31px;
+
+color: #000000;
+}
+.login {
+    position: absolute;
+width: 195px;
+height: 17px;
+left: 505px;
+top: 81px;
+
+/* font-family: 'IBM Plex Sans'; */
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 17px;
+/* identical to box height */
+
+text-align: right;
+
+color: #3D3D3D
+}
+.table {
+    box-sizing: border-box;
+
+position: absolute;
+width: 320px;
+height: 184px;
+left: 36px;
+top: 129px;
+
+background: #F7F8FA;
+
+border-radius: 2px 2px 0px 0px;
+}
+.box1 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 320px;
+    height: 46px;
+   
+    
+    background: #F7F8FA;
+    border: 1px solid #D9D9DB;
+    border-radius: 2px 2px 0px 0px;
+}
+.box11 {
+    position: absolute;
+    width: 160px;
+    height: 42px;
+    top: 7px;
+}
+.box12 {
+    position: absolute;
+    width: 160px;
+    height: 42px;
+    left: 175px;
+    top: 7px;
+}
+.box2{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 320px;
+    height: 46px;
+   top: 45px;
+    
+    background: #F7F8FA;
+    border: 1px solid #D9D9DB;
+    border-radius: 2px 2px 0px 0px;
+}
+.box3 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 320px;
+    height: 46px;
+   top: 90px;
+    
+    background: #F7F8FA;
+    border: 1px solid #D9D9DB;
+    border-radius: 2px 2px 0px 0px;
+}
+.box4{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 320px;
+    height: 46px;
+   top: 135px;
+    
+    background: #F7F8FA;
+    border: 1px solid #D9D9DB;
+    border-radius: 2px 2px 0px 0px;
+}
+.br {
+    position: absolute;
+width: 45px;
+height: 0px;
+left: 140px;
+top: 21px;
+border: 1px solid #D9D9DB;
+transform: rotate(90deg)
+}
+.f {
+    position: absolute;
+width: 76px;
+height: 16px;
+top: 15px;
+left: 12px;
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 16px;
+/* identical to box height, or 107% */
+
+
+color: #8A8A8A;
+}
+.accountbtn {
+    position: absolute;
+width: 320px;
+height: 40px;
+top: 340px;
+left: 36px;
+background: #2F6CE5;
+border-radius: 20px;
+}
+.acntbtn{
+    position: absolute;
+width: 200px;
+height: 16px;
+left: 50px;
+top: 12px;
+border: none;
+background: #2F6CE5;
+/* font-family: 'IBM Plex Sans'; */
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height, or 114% */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+.signupbtn{
+    position: absolute;
+    top: 400px;
+    left: 36px;
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: 38px;
+   
+}
+.g{
+    box-sizing: border-box;
+    margin-top: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 320px;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+}
+.fb{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   width: 320px;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+}
+.img {
+    position: absolute;
+width: 320px;
+height: 320px;
+left: 380px;
+top: 129px;
+}
+.disclaimer {
+    position: absolute;
+width: 317px;
+height: 16px;
+left: 383px;
+top: 449px;
+
+/* font-family: 'IBM Plex Sans'; */
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 16px;
+/* identical to box height, or 145% */
+
+text-align: right;
+letter-spacing: -0.008em;
+
+color: #000000;
+
+opacity: 0.6;
+}
+@media only screen and (max-width:700px) {
+    .navbar{
+     display:none;
+    }
+}
+@media only screen and (max-width:700px) {
+    .img{
+     display:none;
+    }
+}
+@media only screen and (max-width:700px) {
+    .disclaimer{
+     display:none;
+    }
+}
+@media only screen and (max-width:700px) {
+    .container{
+     width: 394px;
+     height: 512px;
+     left: 126px;
+     top: 100px;
+    }
+}
+@media only screen and (max-width:700px) {
+    .accountbtn{
+        width: 150px;
+        height: 36px;
+        position: absolute;
+        justify-content: center;
+     
+    }
+}
+@media only screen and (max-width:700px) {
+    .acntbtn{
+        width: 93px;
+        height: 2px;
+      position: absolute;
+     padding-right: 40px;
+     
+        font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 10px;
+/* identical to box height, or 123% */
+
+text-align: center;
+
+color: #FFFFFF;
+
+    }
+}
